@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(242, 242, 242);
+}
+h1{
+    color: rgb(0, 68, 90);
+    font-size: 2em;
+    font-weight: lighter;
+    font-family: Helvetica, sans-serif, Arial;
+    letter-spacing: 0.5cm;
+}
+
+h2{
+    font-family: 'Urban', Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    font-weight: lighter;
+    color: rgb(114, 114, 114);
+}
+
+p.hora{
+    text-align: right;
+    text-transform: capitalize;
+    font-size: 0.7em;
+    font-weight: bold;
+    color: rgb(142, 142, 142);
+    letter-spacing: 50%;
+}
+
+img{
+    width: 55%;   
+}
+div{
+    text-align: center;
+}
+
+p{
+    font-family: 'Times New Roman', Verdana, Georgia, serif;
+    font-size: 0.95em;
+    color: rgb(124, 124, 124);
+}
+
+@font-face {
+    font-family: 'Urban';
+    src: url(../fonts/UrbanElegance.ttf);
+}
