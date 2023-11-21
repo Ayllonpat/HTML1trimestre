@@ -1,0 +1,13 @@
+header{
+    background-color: rgb(0, 140, 255);
+    margin: 0 auto;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+}
+.hHeader{
+    color: aliceblue;
+    font-size: 6em;
+    text-align: center;
+}

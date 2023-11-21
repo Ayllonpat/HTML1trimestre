@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        p{
+            border-color: blue;
+            border-style: solid;
+            border-width: 2px;
+        }
+        header{
+            border-color: blueviolet;
+            border-style: solid;
+            border-width: 2px;
+            display: flex;
+            width: 50%;
+            
+        }
+        p{
+            flex-basis: 45%;
+            flex-grow: 1;
+            flex-shrink: 2;
+        }
+        p.largo{
+            flex-grow: 2;
+            flex-shrink: 1;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <p>parrafo1</p>
+        <p class="largo">parrafo2 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil exercitationem dolores eligendi quas asperiores nemo fugiat eum, libero ullam aliquam laborum quia aspernatur repellat nisi repellendus delectus explicabo minus ex?</p>
+        <p>parrafo3</p>
+
+    </header>
+</body>
+</html>
