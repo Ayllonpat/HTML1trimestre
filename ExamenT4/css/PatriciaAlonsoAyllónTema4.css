@@ -1,0 +1,93 @@
+body{
+
+	background-color:white;
+	color:  #FEDC00;
+    font-family: Calibri;
+	margin-left: 12.5%;
+	margin-right: 12.5%;
+	
+}
+.letramarilla{
+	color: #FEDC00;
+}
+img{
+	width: 100%;
+}
+header{
+	width: 100%;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+	margin: 0 auto;
+    position: sticky;
+	
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+nav{
+	display: flex;
+	font-size: 16pt;
+	text-align: center;			
+	background-color:#FEDC00;
+	width: 100%;
+	margin-top: 0%;
+	height: 60px;
+	width: 100%;
+	position: bottom;
+	margin-top: 0%;
+
+}
+.enlaces{
+	font-size: 16pt;
+	display: flex;
+	flex: center;
+}
+aside{
+	font-size: 16pt;
+	list-style-type: none;
+	background-color:white;
+	flex: 1 1 25%;
+	display: flex;
+	border-right: #FEDC00;
+}
+
+article{
+	margin: 10%;
+	height: 120px;
+	Margen interior 5%
+	Separación con otras cajas 10px
+	text-align: center;
+}
+
+h3{
+	font-size: 20pt;
+	font-weight: normal;
+	margin-top: 4px;
+	margin-left: 4px;
+}
+h4{
+	font-size: 10pt;
+	font-weight: normal;
+	Separación vertical de 4px con otras cajas
+}
+
+.textofichas{
+	background-color: #FEDC00;
+	Descripción: 12pt
+	Precio: 18pt
+	Botón: 14pt
+}
+
+footer{ 
+	background-color: #FEDC00;
+	color: white;
+	text-align: center;
+	font-size: 12pt;
+}
+
+
+
+
