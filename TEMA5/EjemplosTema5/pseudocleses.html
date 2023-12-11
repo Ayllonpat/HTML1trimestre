@@ -27,16 +27,37 @@
             color: azure;    
             display: none;     
         }
-        nav ul{
+        nav ul {
             list-style-type: none;
             display: flex;
-            justify-content: space-between;
+            justify-content: center;
+            text-align: center;
+            flex-direction: row;
+            width: 100%;
             padding: 0%;
         }
-        nav ul li{
+        nav ul a{
             background-color: aquamarine;
-            flex: 1 1 auto;
-            padding: 0.5%;
+            border-right: 1cap;
+            border-color: black;
+            border: solid;
+            padding: 2%;
+        
+            
+        }
+        nav ul li :first-child{
+            border-radius: 20%;
+
+        }
+        nav ul li :last-child{
+            border-color: aqua;
+            border-radius: 20%;
+        }
+        section{
+            display: none;
+        }
+        section:target{
+            display: inherit;
         }
     </style>
 </head>
@@ -44,14 +65,32 @@
     <h1>holi</h1>
     <nav>
         <ul>
-            <li>holi</li>
-            <li>holi</li>
-            <li>holi</li>
-            <li>holi</li>
-            <li>holi</li>
+            <a href="#holi"> <li>holi</li></a>
+            <a href="#hole"> <li>hole</li></a>
+            <a href="#holo"> <li>holo</li></a>
+            <a href="#holu"> <li>holu</li></a>
+            <a href="#hola"> <li>hola</li></a>
+            
 
         </ul>
     </nav>
+    <section id="holi">
+        <p>1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam doloribus hic tempore vero ratione blanditiis eos recusandae beatae fugiat. Voluptate nostrum perspiciatis explicabo! Cumque animi libero omnis provident dolorem.</p>
+    </section>
+    <section id="hole">
+        <p>2Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam doloribus hic tempore vero ratione blanditiis eos recusandae beatae fugiat. Voluptate nostrum perspiciatis explicabo! Cumque animi libero omnis provident dolorem.</p>
+    </section>
+    <section id="holo">
+        <p>3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam doloribus hic tempore vero ratione blanditiis eos recusandae beatae fugiat. Voluptate nostrum perspiciatis explicabo! Cumque animi libero omnis provident dolorem.</p>
+    </section>
+    <section id="holu">
+        <p>4 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam doloribus hic tempore vero ratione blanditiis eos recusandae beatae fugiat. Voluptate nostrum perspiciatis explicabo! Cumque animi libero omnis provident dolorem.</p>
+    </section>
+    <section id="hola">
+        <p>5 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam doloribus hic tempore vero ratione blanditiis eos recusandae beatae fugiat. Voluptate nostrum perspiciatis explicabo! Cumque animi libero omnis provident dolorem.</p>
+    </section>
+    
+    
     <div>PINCHA AQUI</div>
     <p>ahñBDAHLÑALBHIAÑBHDovgfhvl</P>
 
