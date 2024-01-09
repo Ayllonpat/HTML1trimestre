@@ -12,7 +12,8 @@ nav ul {
     padding: 5px;
 }
 nav ul a{
-    background-color: rgb(238, 238, 238);
+    background-image: url(../Ejercicio02/Fondo/fondodoble.png);
+    background-size: 200%;
     padding: 2%;
 }
 nav ul :first-child{
@@ -24,15 +25,11 @@ nav ul :last-child{
     border-bottom-right-radius: 45%;
 }
 nav ul a:hover{
-    background-color: black;
+    background-image: url(../Ejercicio02/Fondo/fondodoble.png);
+    background-size: 200%;
+    background-position: bottom;
     color: white;
 
-}
-section{
-    display: none;
-}
-section:target{
-    display: inherit;
 }
 body{
     background-color: gray;

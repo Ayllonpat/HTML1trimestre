@@ -28,12 +28,6 @@ nav ul a:hover{
     color: white;
 
 }
-section{
-    display: none;
-}
-section:target{
-    display: inherit;
-}
 body{
     background-color: gray;
 }
