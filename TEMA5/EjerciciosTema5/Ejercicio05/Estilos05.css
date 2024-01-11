@@ -1,0 +1,64 @@
+nav{
+    width: 100%;
+    display: inline-block;
+
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+    width: 100%;
+    margin-left: -1.5cm;
+    margin-right: 0.5cm;
+}
+nav ul a{
+    padding: 1%;
+    position: static;
+    text-decoration: none;
+    color: rgb(250, 250, 250);
+    border: 0.1cm;
+    border-color: aliceblue;
+    border: solid;
+    flex-grow: 1;
+    background-color: rgb(250, 171, 222);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+nav ul a:first-child{
+    margin-left: 1cm;
+}
+nav ul a:last-child{
+    margin-right: 0.3cm;
+}
+nav ul a:hover{
+    background-color: white;
+    color: black;
+    border-color: white;
+}
+div{
+    background-color: white;
+    margin-left: 0.55cm;
+    margin-right: 0.75cm;
+    margin-top: -0.7cm;
+    border-top: 0.5cm;
+    border-top: solid;
+    color: black;
+
+}
+
+div section p{
+    padding: 1cm;
+}
+
+body{
+    background-color: rgb(247, 198, 230);
+
+}
+section{
+    display: none;
+}
+section:target{
+    display: inherit;
+}
