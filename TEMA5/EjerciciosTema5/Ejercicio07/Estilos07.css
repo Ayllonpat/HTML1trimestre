@@ -1,0 +1,52 @@
+nav{
+    width: 100%;
+    display: inline-block;
+    height: 1cm;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+    width: 100%;
+    margin-left: -1.5cm;
+    margin-right: 0.5cm;
+}
+nav ul a{
+    padding: 1%;
+    position: static;
+    text-decoration: none;
+    color: rgb(250, 250, 250);
+    flex-grow: 1;
+    background-color: rgb(250, 152, 194);
+}
+nav ul a:hover{
+    color: white;
+}
+nav section{
+    display: none;
+}
+nav section:target{
+    display: inherit;   
+    position: left;
+    float: left;
+    left: auto;
+}
+nav section ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    display: block;
+
+    
+}
+nav section ul a{
+    display: flex;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    right:-140px;
+}
+
