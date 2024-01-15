@@ -6,28 +6,46 @@ nav ul{
     list-style-type: none;
     display: block;
     justify-content: center;
-    width: 100%;
     padding: 0%;
     flex-grow: 1;
 }
-nav ul li a{
+
+nav ul li{
     background-color: #ffb8d3;
     flex-grow: 1;
     width: 100%;
 }
-nav ul li a:hover{
+nav ul li :hover{
+    width: 1cm;
+    background-color: #ffb8d3;
+    display: block;
+}
+nav ul ul{
+    list-style-type: none;
+    display: none;
+    justify-content: center;
+    width: 100%;
+    padding: 0%;
+    flex-grow: 1;
+}
+nav ul ul li a{
+    background-color: #ffb8d3;
+    flex-grow: 1;
+    width: 100%;
+}
+nav ul ul li a:hover{
     display: block;
     transition: height 3s ease-in, background-color 1s;
 
 }
-nav ul li ul{
+nav ul ul li ul{
     display: none;
     transition: opacity 3s ease-in-out, visibility ease-in-out;
     opacity: 0;
     visibility: hidden;
 }
 
-nav li a {
+nav ul li a {
     background-color:#ffb8d3;
     color:#fff;
     text-decoration:none;
@@ -35,17 +53,17 @@ nav li a {
     display:inline-block;
 
 }
-nav li a:hover {
+nav ul li a:hover {
     background-color:#ff95cf;
 }
 
-nav li:hover > ul {
+nav ul li:hover > ul {
     display:block;
     opacity: 1;
     visibility: visible;
 }
 
-nav ul li ul li{
+nav ul ul li ul li{
     padding: 0%;
     display: block;
     color:#fff;

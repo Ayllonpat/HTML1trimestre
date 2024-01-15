@@ -12,18 +12,15 @@ nav ul {
     width: 100%;
     padding: 0%;
     flex-grow: 1;
+
 }
 nav ul li a{
     background-color: #ffb8d3;
     flex-grow: 1;
+    width: 100%;
 }
 nav ul li{
     flex-grow: 1;
-}
-nav li{
-    padding: 0%;
-    flex-grow: 1;
-    min-width: 140px;
 }
 
 nav li a {
@@ -47,9 +44,5 @@ nav li:hover > ul {
     display:block;
 }
 
-nav li ul li {
-    position:static;
-    width: 24%;
-}
 
 

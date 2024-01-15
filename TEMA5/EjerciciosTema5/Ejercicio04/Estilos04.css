@@ -1,0 +1,55 @@
+ul{
+    list-style:none;
+}
+nav{
+    width: 100%;
+}
+nav ul{
+    list-style-type: none;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 2px;
+    height: 1cm;
+ 
+}
+
+nav ul .inicio{
+    background-image: url(../Ejercicio04/Fotos/DashIcons.jpg);
+    background-size: 1000%;
+    padding: 2%;
+    background-position: 29% -7%;
+}
+nav ul .inicio:hover{
+    background-image: url(../Ejercicio04/Fotos/DashIcons.jpg);
+    background-size: 1000%;
+    padding: 2%;
+    background-position: 29% -7%;
+    background-color: black;
+}
+nav ul .nuevo{
+    background-image: url(../Ejercicio04/Fotos/DashIcons.jpg);
+    background-size: 1000%;
+    padding: 2%;
+    background-position: 15% 20%;
+}
+nav ul .editar{
+    background-image: url(../Ejercicio04/Fotos/DashIcons.jpg);
+    background-size: 1000%;
+    padding: 2%;
+    background-position: 0% 20%;
+}
+nav ul .visualizar{
+    background-image: url(../Ejercicio04/Fotos/DashIcons.jpg);
+    background-size: 1000%;
+    padding: 2%;
+    background-position: 15% 75%;
+}
+nav ul .imagen{
+    background-image: url(../Ejercicio04/Fotos/DashIcons.jpg);
+    background-size: 1000%;
+    padding: 2%;
+    background-position: 0% 47%;
+}
