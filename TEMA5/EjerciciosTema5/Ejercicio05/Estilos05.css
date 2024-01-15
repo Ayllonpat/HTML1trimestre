@@ -56,9 +56,3 @@ body{
     background-color: rgb(247, 198, 230);
 
 }
-section{
-    display: none;
-}
-section:target{
-    display: inherit;
-}
